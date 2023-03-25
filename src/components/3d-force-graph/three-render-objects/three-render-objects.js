@@ -52,8 +52,8 @@ import { RenderPass as ThreeRenderPass } from 'three/examples/jsm/postprocessing
 import { parseToRgb, opacify } from 'polished'
 import TWEEN from '@tweenjs/tween.js'
 
-import accessorFn from 'accessor-fn'
-import Kapsule from 'kapsule'
+import accessorFn from '../accessor-fn'
+import Kapsule from '../kapsule'
 
 export default Kapsule({
   props: {
